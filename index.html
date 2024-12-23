@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanza Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Chanza Store",
+          "url": "",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Person",
+              "name": "Nurhaliza",
+              "url": "",
+              "sameAs": [
+                "https://www.instagram.com/alizaceah/profilecard/?igsh=MXNtOW5jZmg1azZ4ZQ==",
+                "https://x.com/vodkahest?t=hKiiUMHwWhwBaOivJnNdBg&s=09",
+                ""
+              ]  
+            }
+            </script>
+
+            <script type="application/ld+json">
+                {
+                  "@context": "https://schema.org",
+                  "@type": "LocalBusiness",
+                  "name": "Chanza Store",
+                  "url": "",
+                  "telephone": "081221909629",
+                  "priceRange": "Rp. 200.000.00",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Perumahan Aster 3 JL.Cendana 1 Blok A6 No.11",
+                    "addressLocality": "Tangerang",
+                    "postalCode": "15339",
+                    "addressCountry": "ID"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": -6.2447998,
+                    "longitude": 106.7431578
+                  }  
+                }
+                </script>
+</head>
+<body>
+    <header>
+        <h1>CHANZA STORE!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Chanza Store</h1>
+        <p>Make your dream come true to become a ballerina.</p>
+    </div>
+
+    <section class="about" id="about">
+        <img src="lerina.jpg" alt="pict balet">
+        <h2>About Us</h2>
+        <p>Selamat datang di Chanza Store, pusat perlengkapan balet terpercaya untuk penari dari segala usia dan tingkat pengalaman! Kami menyediakan berbagai macam produk berkualitas tinggi untuk mendukung kebutuhan balet Anda.
+        <p>Produk yang Kami Tawarkan; Sepatu Ballet, Rok Ballet, dan juga Custom Ballet.</p>
+        </p>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="sepatu ballet.jpg" alt="Sepatu Ballet">
+            <h2> Sepatu Ballet </h2>
+            <p>200.000.00</p>
+            <button>buy</button>
+        </div>
+        <div class="product">
+            <img src="Baju Ballet.jpg" alt="Product 2">
+            <h2> Baju Ballet </h2>
+            <p>250.000.00</p>
+            <button>buy</button>
+        </div>
+        <div class="product">
+            <img src="rok ballet.jpg" alt="Product 3">
+            <h2> Rok Ballet </h2>
+            <p>200.000.00</p>
+            <button>buy</button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <img src="whatsapp.jpg" alt="whatsapp">
+        <img src="instagram.jpg" alt="instagram">
+        <img src="twitter.jpg" alt="twitter">
+    </section>
+
+    <footer>
+        <p> since &copy;2024</p>
+    </footer>
+</body>
+</html>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
+</script>
